@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5479895906145742225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068781955928074191}
+  - component: {fileID: 784082381704516360}
+  - component: {fileID: 6660410399100947176}
+  - component: {fileID: 5511534584878625659}
+  - component: {fileID: 6660410399100947177}
+  - component: {fileID: 6660410399100947178}
+  - component: {fileID: 6660410399100947179}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2068781955928074191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5479895906145742225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &784082381704516360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5479895906145742225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bbc2c1e63e98543830eec78d976795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedGuid: 
+--- !u!114 &6660410399100947176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5479895906145742225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4b0250cd9cb604691f55094ec24d48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UId: 8a3957c5-26e7-4e9b-9831-4c522e6703e7
+  taskTitle: That Dudes Task
+  taskDescription: 'Hit {0} button {1} times
+
+    Then Hit {2} button {3} times
+
+    Then
+    hit {4} button {5} times
+
+    Then {6} {7} times'
+  taskProgress: '{0}  {1} / {2}
+
+    {3}  {4} / {5}
+
+    {6}  {7} / {8}
+
+    {9} 
+    {10} / {11}'
+  taskCheck: 1
+--- !u!114 &5511534584878625659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5479895906145742225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f237a0ccfa5e324193b190da60f9a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanTrackRequirement: 0
+  action: 3
+  desiredPressTimes: 3
+--- !u!114 &6660410399100947177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5479895906145742225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f237a0ccfa5e324193b190da60f9a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanTrackRequirement: 0
+  action: 2
+  desiredPressTimes: 2
+--- !u!114 &6660410399100947178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5479895906145742225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f237a0ccfa5e324193b190da60f9a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanTrackRequirement: 0
+  action: 1
+  desiredPressTimes: 8
+--- !u!114 &6660410399100947179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5479895906145742225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f237a0ccfa5e324193b190da60f9a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanTrackRequirement: 0
+  action: 0
+  desiredPressTimes: 5
